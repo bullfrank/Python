@@ -8,6 +8,11 @@ Study Regular Expression functions named match and search
 
 import re
 
+"""
+ 1.match函数只能从字符串的起始位置进行匹配正则表达式中代表的字符串.如果正则表达式匹配的
+   子串在字符串的除开头以外的其他位置，则match返回None,无法匹配
+ 2.search函数可以从字符串的任意位置开始查找正则表达式中代表的字符串
+"""
 def how_to_use_match():
     str1 = "food"
     str2 = "This is food"
