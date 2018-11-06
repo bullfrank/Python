@@ -32,5 +32,6 @@ countCharAmout(sentence, dict)
 
 print("result: %s"% dict.items())
 print("result: %s"% dict.items())
+print("test in Test folder")
         
 
