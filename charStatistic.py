@@ -31,5 +31,6 @@ dict = initDictionary()
 countCharAmout(sentence, dict)
 
 print("result: %s"% dict.items())
+print("result: %s"% dict.items())
         
 
